@@ -7,9 +7,6 @@
  I could not get crowbar to work effectively via a kali vm.
  So I decided to give writing my own a go just for the pure fun of it, because why not....
 
-@NOTE: This is a quick script to achieve a purpose not a technical programming excercise not consideration to memory/procs/handling etc has been given!
-If you fancy bashing the code because you feel the need to feel superior... dont, just be a good dev and update it...
-
 Test output:
 
 python sb_brute_openvpn.py --host 192.168.101.10 --config /home/scripts/python/server.conf --user Office-2 --passlist /usr/share/john/password.lst 
