@@ -8,18 +8,12 @@
  So I decided to give writing my own a go just for the pure fun of it, because why not....
 
 Test output:
-
 python sb_brute_openvpn.py --host 192.168.101.10 --config /home/scripts/python/server.conf --user Office-2 --passlist /usr/share/john/password.lst 
-
 [+] SUCCESS! command = /usr/sbin/openvpn --remote 192.168.101.10 --config /home/scripts/python/server.conf --auth-user-pass /tmp/sb_test/tmp4HdLuM
 [+] Password: ***REMOVED***
 [+] VPN Process stopped and temp files removed
-Terminated
-
-
 
 Challenge for password brute complete.
-
 '''
 #!/usr/bin/python
 import os
