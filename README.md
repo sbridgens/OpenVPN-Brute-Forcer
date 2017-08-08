@@ -12,7 +12,7 @@ Server.conf/ovpn from the comprimised server
 openvpn username
 CA cert from the comprimised server: include in the server.conf or seperated into a crt file then reference
 
-NOTE: Remove any auth-user-path references from the server.conf/ovpn files.
+NOTE: Use the attached server.conf and update the crt path with the extracted ca certificate or edit your own to match i.e: Remove the auth-user-path line, comment out the remote lines and move the ca certificate into a seperate file from the server.conf file then execute.
 
 
 SCRIPT EXECUTION:
